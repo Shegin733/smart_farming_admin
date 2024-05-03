@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
               onPressed: () async {
                 String greenHouseId = _textController.text;
-                String emailId = _emailController.text;
+                String emailId = _emailController.text.toLowerCase();
 
                 // Firestore document reference
                 DocumentReference docRef = FirebaseFirestore.instance
