@@ -1,16 +1,22 @@
-# smart_farming
+# Smart Farming Admin Project
 
-A new Flutter project.
+## Overview
+The Smart Farming Admin Project is designed for administrators to configure microcontrollers and IoT devices in the greenhouse. Administrators can generate unique tokens and store them in Firebase Realtime Database. Farmers or their family members can use these unique tokens to configure their Smart Farming applications, allowing them to control and monitor the greenhouse using real-time sensor values.
 
-## Getting Started
+## Features
+- Configure microcontrollers and IoT devices.
+- Generate and store unique tokens in Firebase Realtime Database.
+- Link unique tokens to sensor values for real-time greenhouse control.
 
-This project is a starting point for a Flutter application.
+## Firebase Setup
+1. Create a Firebase project.
+2. Add your `google-services.json` for Android and `GoogleService-Info.plist` for iOS.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
+Install Flutter dependencies:
+```bash
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Linking to Main Project
+For detailed instructions and functionalities related to the main Smart Farming project, [click here](https://github.com/s4rath/smart_farming).
