@@ -19,4 +19,4 @@ flutter pub get
 ```
 
 ## Linking to Main Project
-For detailed instructions and functionalities related to the main Smart Farming project, [click here](git@github.com:Shegin733/smart_farming.git).
+For detailed instructions and functionalities related to the main Smart Farming project, [click here](https://github.com/Shegin733/smart_farming.git).
